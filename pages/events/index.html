@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link rel="stylesheet" href="../../reset.css" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>The Hidden Bean</title>
+    <script
+      src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+      defer
+    ></script>
+    <script src="../../main.js" defer></script>
+  </head>
+  <body>
+    <header id="mainHeader" class="header container">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="/pages/home/index.html" class="header__logo-link"
+            ><img
+              loading="lazy"
+              alt="Coffee Logo"
+              width="40"
+              height="40"
+              src="../../assets/icon.png"
+            />
+            <h1 class="header__logo-text">The Hidden Bean</h1></a
+          >
+        </div>
+
+        <ul class="header__nav-links">
+          <li class="header__nav-item">
+            <a href="../shop/index.html" class="header__nav-link">Shop</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../equipments/index.html" class="header__nav-link"
+              >Equipments</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="../cart/index.html" class="header__nav-link">Cart</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../events/index.html" class="header__nav-link">Events</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../subscriptions/index.html" class="header__nav-link"
+              >Subscriptions</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <button class="header__nav-button btn btn--solid">
+              Order Online
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="events">
+      <div class="events__header">
+        <h1 class="events__title">Events & Workshops</h1>
+        <p class="events__description">
+          Discover our upcoming events and workshops. Register below to reserve
+          your spot!
+        </p>
+      </div>
+
+      <div class="events__content">
+        <div class="events__list">
+          <!-- Event Card 1 -->
+          <div class="event-card">
+            <img
+              class="event-card__image"
+              src="../../assets/events/event-1.jpg"
+              alt="Coffee Brewing Workshop"
+            />
+            <div class="event-card__info">
+              <h2 class="event-card__title">Coffee Brewing Workshop</h2>
+              <p class="event-card__date">May 20, 2025</p>
+              <p class="event-card__description">
+                Learn the art of coffee brewing from our expert baristas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event Card 2 -->
+          <div class="event-card">
+            <img
+              class="event-card__image"
+              src="../../assets/events/event-2.jpg"
+              alt="Latte Art Seminar"
+            />
+            <div class="event-card__info">
+              <h2 class="event-card__title">Latte Art Seminar</h2>
+              <p class="event-card__date">June 10, 2025</p>
+              <p class="event-card__description">
+                Master your milk skills and learn how to create art in your cup.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <form
+          class="registration-form"
+          action="mailto:youremail@example.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <h2 class="registration-form__title">Register Now</h2>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            required
+          />
+          <input type="text" name="lastName" placeholder="Last Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

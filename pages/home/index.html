@@ -3,70 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicons" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicons/favicon-32x32.png"
+      href="../../assets/favicons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/favicons/favicon-16x16.png"
+      href="../../assets/favicons/favicon-16x16.png"
     />
-    <link rel="manifest" href="assets/favicons/site.webmanifest" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="../../assets/favicons/site.webmanifest" />
+    <link rel="stylesheet" href="../../style.css" />
     <title>The Hidden Bean</title>
     <script
       src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
       defer
     ></script>
+    <script defer src="../../main.js"></script>
   </head>
   <body>
-    <section class="section section--intro">
-      <header class="header container">
-        <nav class="header__nav">
-          <div class="header__logo">
-            <a href="/" class="header__logo-link"
-              ><img
-                loading="lazy"
-                alt="Coffee Logo"
-                width="40"
-                height="40"
-                src="./assets/icon.png"
-              />
-              <h1 class="header__logo-text">The Hidden Bean</h1></a
+    <header id="mainHeader" class="header container">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="/pages/home/index.html" class="header__logo-link"
+            ><img
+              loading="lazy"
+              alt="Coffee Logo"
+              width="40"
+              height="40"
+              src="../../assets/icon.png"
+            />
+            <h1 class="header__logo-text">The Hidden Bean</h1></a
+          >
+        </div>
+
+        <ul class="header__nav-links">
+          <li class="header__nav-item">
+            <a href="../shop/index.html" class="header__nav-link">Shop</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../equipments/index.html" class="header__nav-link"
+              >Equipments</a
             >
-          </div>
-
-          <ul class="header__nav-links">
-            <li class="header__nav-item">
-              <a href="/" class="header__nav-link">Shop</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="/about" class="header__nav-link">About</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="/services" class="header__nav-link">Blog</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="/contact" class="header__nav-link">Locations</a>
-            </li>
-            <li class="header__nav-item">
-              <a href="/contact" class="header__nav-link">Contact</a>
-            </li>
-            <li class="header__nav-item">
-              <button class="header__nav-button btn btn--solid">
-                Order Online
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+          </li>
+          <li class="header__nav-item">
+            <a href="../cart/index.html" class="header__nav-link">Cart</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../events/index.html" class="header__nav-link">Events</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../subscriptions/index.html" class="header__nav-link"
+              >Subscriptions</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <button class="header__nav-button btn btn--solid">
+              Order Online
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section--intro">
       <div class="hero container">
         <h1 class="hero__title">Brewed to Perfection.</h1>
         <h1 class="hero__title">Sipped with Joy.</h1>
@@ -86,7 +89,7 @@
           <img
             loading="lazy"
             class="coffee__image"
-            src="./assets/bean.webp"
+            src="../../assets/bean.webp"
             width="500"
             height="310"
           />
@@ -125,7 +128,7 @@
           <img
             loading="lazy"
             class="coffee__image"
-            src="./assets/coffee-shop.webp"
+            src="../../assets/coffee-shop.webp"
             width="500"
             height="310"
           />
@@ -168,7 +171,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/affogato-1.webp"
+            src="../../assets/mansory/affogato-1.webp"
             alt=""
           />
         </div>
@@ -176,7 +179,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/affogato.webp"
+            src="../../assets/mansory/affogato.webp"
             alt=""
           />
         </div>
@@ -184,33 +187,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/black-ice.webp"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="masonry__column">
-        <div class="masonry__image--wrapper">
-          <img
-            loading="lazy"
-            class="masonry__image"
-            src="assets/mansory/black.webp"
-            alt=""
-          />
-        </div>
-        <div class="masonry__image--wrapper">
-          <img
-            loading="lazy"
-            class="masonry__image"
-            src="assets/mansory/matcha.webp"
-            alt=""
-          />
-        </div>
-        <div class="masonry__image--wrapper">
-          <img
-            loading="lazy"
-            class="masonry__image"
-            src="assets/mansory/people.webp"
+            src="../../assets/mansory/black-ice.webp"
             alt=""
           />
         </div>
@@ -220,7 +197,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/pictures.webp"
+            src="../../assets/mansory/black.webp"
             alt=""
           />
         </div>
@@ -228,7 +205,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/tools-1.webp"
+            src="../../assets/mansory/matcha.webp"
             alt=""
           />
         </div>
@@ -236,7 +213,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/tools.webp"
+            src="../../assets/mansory/people.webp"
             alt=""
           />
         </div>
@@ -246,7 +223,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/coffee-girl.webp"
+            src="../../assets/mansory/pictures.webp"
             alt=""
           />
         </div>
@@ -254,7 +231,7 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/barista.webp"
+            src="../../assets/mansory/tools-1.webp"
             alt=""
           />
         </div>
@@ -262,7 +239,33 @@
           <img
             loading="lazy"
             class="masonry__image"
-            src="assets/mansory/coffee-slogan.webp"
+            src="../../assets/mansory/tools.webp"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="masonry__column">
+        <div class="masonry__image--wrapper">
+          <img
+            loading="lazy"
+            class="masonry__image"
+            src="../../assets/mansory/coffee-girl.webp"
+            alt=""
+          />
+        </div>
+        <div class="masonry__image--wrapper">
+          <img
+            loading="lazy"
+            class="masonry__image"
+            src="../../assets/mansory/barista.webp"
+            alt=""
+          />
+        </div>
+        <div class="masonry__image--wrapper">
+          <img
+            loading="lazy"
+            class="masonry__image"
+            src="../../assets/mansory/coffee-slogan.webp"
             alt=""
           />
         </div>
@@ -314,5 +317,9 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer container">
+      <p class="footer__text">@2025 TheHiddenBean All Rights Reserved</p>
+    </footer>
   </body>
 </html>

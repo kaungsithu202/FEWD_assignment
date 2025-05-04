@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>The Hidden Bean</title>
+    <script
+      src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../../main.js" defer></script>
+  </head>
+  <body>
+    <header id="mainHeader" class="header container">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="/pages/home/index.html" class="header__logo-link"
+            ><img
+              loading="lazy"
+              alt="Coffee Logo"
+              width="40"
+              height="40"
+              src="../../assets/icon.png"
+            />
+            <h1 class="header__logo-text">The Hidden Bean</h1></a
+          >
+        </div>
+
+        <ul class="header__nav-links">
+          <li class="header__nav-item">
+            <a href="../shop/index.html" class="header__nav-link">Shop</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../equipments/index.html" class="header__nav-link"
+              >Equipments</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="../cart/index.html" class="header__nav-link">Cart</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../events/index.html" class="header__nav-link">Events</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../subscriptions/index.html" class="header__nav-link"
+              >Subscriptions</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <button class="header__nav-button btn btn--solid">
+              Order Online
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cart">
+      <h1 class="cart__title">Shopping Cart</h1>
+      <div class="container cart__items">
+        <div class="cart__item">
+          <div class="cart__info">
+            <box-icon name="x" size="40px" color="#875a49"></box-icon>
+            <img
+              class="cart__image"
+              src="../../assets/menu/flat-white.png"
+              alt="Cart Item"
+            />
+            <p class="cart__name">Flat White</p>
+          </div>
+          <div class="cart__details">
+            <p class="cart__price">$5</p>
+            <div class="cart__qty">
+              <button class="cart__qty--button cart__qty-button--minus">
+                <box-icon name="minus" color="#875a49"></box-icon>
+              </button>
+              <p class="cart__qty--amount">1</p>
+              <button class="cart__qty--button cart__qty-button--plus">
+                <box-icon name="plus" color="#875a49"></box-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="cart__divider" />
+        <div class="cart__item">
+          <div class="cart__info">
+            <box-icon name="x" color="#875a49" size="40px"></box-icon>
+            <img
+              class="cart__image"
+              src="../../assets/menu/flat-white.png"
+              alt="Cart Item"
+            />
+            <p class="cart__name">Flat White</p>
+          </div>
+          <div class="cart__details">
+            <p class="cart__price">$5</p>
+            <div class="cart__qty">
+              <button class="cart__qty--button cart__qty-button--minus">
+                <box-icon name="minus" color="#875a49"></box-icon>
+              </button>
+              <p class="cart__qty--amount">1</p>
+              <button class="cart__qty--button cart__qty-button--plus">
+                <box-icon name="plus" color="#875a49"></box-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="cart__divider" />
+        <div class="cart__item">
+          <div class="cart__info">
+            <box-icon name="x" color="#875a49" size="40px"></box-icon>
+            <img
+              class="cart__image"
+              src="../../assets/menu/flat-white.png"
+              alt="Cart Item"
+            />
+            <p class="cart__name">Flat White</p>
+          </div>
+          <div class="cart__details">
+            <p class="cart__price">$5</p>
+            <div class="cart__qty">
+              <button class="cart__qty--button cart__qty-button--minus">
+                <box-icon name="minus" color="#875a49"></box-icon>
+              </button>
+              <p class="cart__qty--amount">1</p>
+              <button class="cart__qty--button cart__qty-button--plus">
+                <box-icon name="plus" color="#875a49"></box-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="cart__divider" />
+        <div class="cart__total">
+          <div></div>
+          <p class="cart__total--text">Total : $15</p>
+        </div>
+        <div class="checkout">
+          <button class="checkout__button">Check Out</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

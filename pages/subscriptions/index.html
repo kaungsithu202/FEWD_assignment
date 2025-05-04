@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link rel="stylesheet" href="../../reset.css" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>The Hidden Bean</title>
+    <script
+      src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+      defer
+    ></script>
+    <script src="../../main.js" defer></script>
+  </head>
+  <body>
+    <header id="mainHeader" class="header container">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <a href="/pages/home/index.html" class="header__logo-link"
+            ><img
+              loading="lazy"
+              alt="Coffee Logo"
+              width="40"
+              height="40"
+              src="../../assets/icon.png"
+            />
+            <h1 class="header__logo-text">The Hidden Bean</h1></a
+          >
+        </div>
+
+        <ul class="header__nav-links">
+          <li class="header__nav-item">
+            <a href="../shop/index.html" class="header__nav-link">Shop</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../equipments/index.html" class="header__nav-link"
+              >Equipments</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="../cart/index.html" class="header__nav-link">Cart</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../events/index.html" class="header__nav-link">Events</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="../subscriptions/index.html" class="header__nav-link"
+              >Subscriptions</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <button class="header__nav-button btn btn--solid">
+              Order Online
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="offers-subscriptions">
+      <!-- Special Offers -->
+      <div class="offers">
+        <h1 class="offers__title">Special Offers</h1>
+        <div class="offers__grid">
+          <div class="offer-card">
+            <h2 class="offer-card__title">Buy 1 Get 1 Free</h2>
+            <p class="offer-card__description">
+              Available every Monday. Get twice the caffeine for the same price!
+            </p>
+          </div>
+          <div class="offer-card">
+            <h2 class="offer-card__title">Free Mug with First Order</h2>
+            <p class="offer-card__description">
+              Subscribe now and receive a limited edition coffee mug.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subscription Plans -->
+      <div class="subscriptions">
+        <h1 class="subscriptions__title">Coffee Subscriptions</h1>
+        <p class="subscriptions__intro">
+          Choose the perfect plan and get coffee delivered to your door.
+        </p>
+        <div class="subscriptions__plans">
+          <!-- Plan 1 -->
+          <div class="plan-card plan-card--basic">
+            <h2 class="plan-card__title">Basic</h2>
+            <p class="plan-card__price">$15/month</p>
+            <ul class="plan-card__benefits">
+              <li>2 bags of coffee</li>
+              <li>Free shipping</li>
+            </ul>
+            <button class="plan-card__button">Subscribe</button>
+          </div>
+
+          <!-- Plan 2 -->
+          <div class="plan-card plan-card--premium">
+            <h2 class="plan-card__title">Premium</h2>
+            <p class="plan-card__price">$25/month</p>
+            <ul class="plan-card__benefits">
+              <li>4 bags of coffee</li>
+              <li>Free mug & tote bag</li>
+              <li>Priority shipping</li>
+            </ul>
+            <button class="plan-card__button">Subscribe</button>
+          </div>
+
+          <!-- Plan 3 -->
+          <div class="plan-card plan-card--vip">
+            <h2 class="plan-card__title">VIP</h2>
+            <p class="plan-card__price">$40/month</p>
+            <ul class="plan-card__benefits">
+              <li>Unlimited coffee refills*</li>
+              <li>Exclusive blends</li>
+              <li>VIP hotline</li>
+            </ul>
+            <button class="plan-card__button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
